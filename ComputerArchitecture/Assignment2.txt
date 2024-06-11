@@ -1,0 +1,38 @@
+    [ISP/Internet]
+          |
+          |
+      [Modem]
+          |
+          |
+     [Wi-Fi Router] ------------- [PC/Laptop]  (Wired/Wireless)
+         / | \
+        /  |  \
+       /   |   \
+[Smartphone] [Tablet] [Smart TV]
+
+
+Accessing the RPS Lab Environment via Web-Based Remote Access Portal
+Steps:
+
+1.	Open a Web Browser: On your PC/laptop, open your preferred web browser (such as Chrome, Firefox, Edge, etc.).
+2.	Navigate to the Portal URL: Enter the URL of the remote access portal provided by your organization or the RPS Lab.
+plaintext
+https://rps-lab-access.com
+
+3.	Login with Credentials: Enter your username and password to log in to the portal.
+4.	Two-Factor Authentication (2FA): If the portal uses 2FA, enter the verification code sent to your mobile device or email.
+5.	Access Lab Resources: Once logged in, you will see a dashboard with available resources. Click on the desired resource (such as a virtual machine or specific lab environment) to access it directly from your browser.
+
+Example Scenario
+
+•	Home Setup: Your PC/laptop is connected to the Wi-Fi router via Wi-Fi.
+•	Web Portal Access: You open your web browser and navigate to the remote access portal URL:
+plaintext
+
+https://rps-lab-access.com
+
+•	Login and Authentication: You enter your login credentials and, if required, a 2FA code.
+•	Access Resources: You select the lab resource you need and start working within the RPS Lab environment directly from your browser.
+This method is simple and user-friendly, as it only requires a web browser and does not involve additional software installation or complex configurations.
+4o
+
