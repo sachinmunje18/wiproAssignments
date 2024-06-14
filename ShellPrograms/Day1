@@ -1,0 +1,71 @@
+create table employee
+(
+ id number(10),
+ name varchar2(40),
+ age number(10) 
+)
+
+describe employee;
+
+desc employee;
+
+drop table employee;
+
+rename emp1 to employee;
+
+alter table employee add(salary number(30));
+
+Results
+	
+Explain
+	
+Describe
+	
+Saved SQL
+	
+History
+	
+
+alter table employee add(email varchar2(30), moNo varchar2(10));
+
+alter table employee drop column mono;
+alter table employee drop (salary,email);
+
+alter table employee rename column salary to esalary;
+
+describe employee;
+
+
+drop table employee;
+
+create table employee
+( 
+ id number(10),
+ name varchar2(30),
+ salary number(10,2),
+ dept varchar2(30),
+ age number
+);
+
+insert into employee values(3, 'john',40000,'tester',34);
+insert into employee values(9, 'sai',4700,'tester',34);
+insert into employee values(8, 'swaraj',2500,'tester',02);
+insert into employee (id, name, age) values(4, 'bob', 30);
+insert into employee (id, name, age) values(5, 'amar', 65);
+insert into employee (id, name, age) values(6, 'krishna', 356);
+select * from employee;
+
+select id, name from employee;
+select id, name, age from employee;
+select id, name , salary, dept, age from employee;
+
+update employee set salary=3500 where id=6;
+
+select * from employee;
+update employee set dept ='developer' where id>=5;
+
+delete from employee where id=4;
+
+select id,name, salary, salary+10000 as bonus , salary/30 as perdaysalaray from employee;
+
+select * from employee where age>40;
